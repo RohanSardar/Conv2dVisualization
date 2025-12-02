@@ -6,7 +6,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import math
 
-st.set_page_config(page_title='Convolution Visualizer', page_icon='🏞️', initial_sidebar_state='expanded')
+st.set_page_config(page_title='Convolution Visualizer', page_icon='🏞️', initial_sidebar_state='expanded', layout='wide')
 st.title('Convolution Feature Map Visualizer')
 st.badge('It uses Conv2d() method of PyTorch', icon='ℹ️', color='orange')
 
